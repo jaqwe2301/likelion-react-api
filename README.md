@@ -11,7 +11,7 @@
 ### 요청
 
 ```
-https://localhost:5000/api/list/?page=1&page_size=10
+http://localhost:5000/api/list/?page=1&page_size=10
 ```
 
 ### 응답
@@ -19,7 +19,7 @@ https://localhost:5000/api/list/?page=1&page_size=10
 ```
 {
     "count": 23,
-    "next": "https://localhost:5000/api/list/?page=2&page_size=10",
+    "next": "http://localhost:5000/api/list/?page=2&page_size=10",
     "previous": null,
     "results": [
         {
@@ -79,7 +79,7 @@ https://localhost:5000/api/list/?page=1&page_size=10
 ### 요청
 
 ```
-https://localhost:5000/api/posts/1
+http://localhost:5000/api/posts/1
 ```
 
 ### 응답
@@ -106,7 +106,7 @@ https://localhost:5000/api/posts/1
 ### 요청
 
 ```
-https://localhost:5000/api/posts/
+http://localhost:5000/api/posts/
 ```
 
 Body
@@ -140,7 +140,7 @@ Body
 ### 요청
 
 ```
-https://localhost:5000/api/repl/
+http://localhost:5000/api/repl/
 ```
 
 Body
