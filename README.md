@@ -1,17 +1,17 @@
-## 멋사 REACT 실습 예제
+# 멋사 REACT 실습 예제
 
-1. get postList
+## 1. get postList
 
 - 요청방식 : get
 - 기능 : 게시물들의 목록을 보여준다. (id 값, title 만 보여줌)
-- API url : https://reactapitest.pythonanywhere.com/api/list/?page={n}&page_size={np}
   (n은 현재 page, np는 한번에 보여질 페이지 수를 의미한다.)
+  
 - 예시
 
 ### 요청
 
 ```
-https://reactapitest.pythonanywhere.com/api/list/?page=1&page_size=10
+https://localhost:5000/api/list/?page=1&page_size=10
 ```
 
 ### 응답
@@ -72,14 +72,14 @@ https://reactapitest.pythonanywhere.com/api/list/?page=1&page_size=10
 
 - 요청방식 : get
 - 기능 : 게시물의 상세페이지를 보여준다. (id, title, contents, repls)
-- API url : https://reactapitest.pythonanywhere.com/api/posts/{n}
   (n은 조회하고자 하는 post의 id이다.)
+  
 - 예시
 
 ### 요청
 
 ```
-https://reactapitest.pythonanywhere.com/api/posts/1
+https://localhost:5000/api/posts/1
 ```
 
 ### 응답
@@ -96,17 +96,17 @@ https://reactapitest.pythonanywhere.com/api/posts/1
 }
 ```
 
-3. post post
+## 3. post post
 
 - 요청방식 : post
 - 기능 : 게시물를 작성한다. (title, contents, repls[빈값])
-- API url : https://reactapitest.pythonanywhere.com/api/posts/
+
 - 예시
 
 ### 요청
 
 ```
-https://reactapitest.pythonanywhere.com/api/posts/
+https://localhost:5000/api/posts/
 ```
 
 Body
@@ -134,13 +134,13 @@ Body
 
 - 요청방식 : post
 - 기능 : 댓글을 작성한다. (contents, post[post의 id])
-- API url : https://reactapitest.pythonanywhere.com/api/repl/
+
 - 예시
 
 ### 요청
 
 ```
-https://reactapitest.pythonanywhere.com/api/repl/
+https://localhost:5000/api/repl/
 ```
 
 Body
