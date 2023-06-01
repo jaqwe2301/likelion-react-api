@@ -19,7 +19,7 @@ https://localhost:5000/api/list/?page=1&page_size=10
 ```
 {
     "count": 23,
-    "next": "https://reactapitest.pythonanywhere.com/api/list/?page=2&page_size=10",
+    "next": "https://localhost:5000/api/list/?page=2&page_size=10",
     "previous": null,
     "results": [
         {
