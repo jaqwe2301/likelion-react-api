@@ -1,5 +1,11 @@
 # 멋사 REACT 실습 예제
 
+## 서버 실행 방법
+```
+npm start
+```
+
+
 ## 1. get postList
 
 - 요청방식 : get
